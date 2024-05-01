@@ -7,7 +7,7 @@ var laptops = [
     { make: "Apple", model: "MacBook Pro", year: 2020 },
     { make: "HP", model: "Spectre x360", year: 2021 }
 ];
-var DELL = laptops[0], Apple = laptops[1], HP = laptops[2];
-console.log(DELL);
-console.log(Apple);
-console.log(HP);
+var a = laptops[0], b = laptops[1], c = laptops[2];
+console.log(a);
+console.log(b);
+console.log(c);

@@ -8,7 +8,7 @@ let laptops = [
     { make: "Apple", model: "MacBook Pro", year: 2020 },
     { make: "HP", model: "Spectre x360", year: 2021 }
 ];
-let [DELL, Apple, HP] = laptops;
-console.log(DELL);
-console.log(Apple);
-console.log(HP);
+let [a,b,c] = laptops;
+console.log(a);
+console.log(b);
+console.log(c);
