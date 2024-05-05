@@ -18,8 +18,12 @@ function useCompoundOperators() {
     x *= 3; // Multiplies x by 3
     console.log("After multiplication 3:", x); // Shows x after multiplication
 
-    x /= 2; // Divides x by 2
+    x /=2; // Divides x by 2
     console.log("After division 2:", x); // Shows x after division
+
+    x %= 2
+    console.log("After Modulus" , x);
+    
 }
 
 useCompoundOperators();
