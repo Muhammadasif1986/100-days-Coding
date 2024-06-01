@@ -10,8 +10,13 @@ let developerSkills = {
     tools: ["Git", "Webpack", "Docker"]
 };
 
+console.log(`Language: ${developerSkills.languages[1]}, Framework: ${developerSkills.frameworks[0]}, Tool: ${developerSkills.tools[0]}`);
+
 // Getting specific skills from the list
 let { languages, frameworks, tools } = developerSkills;
+// let {languages, frameworks, tool} = developerSkills
+console.log(languages);
+
 
 // Showing a skill from each category
 console.log(`Language: ${languages[1]}, Framework: ${frameworks[0]}, Tool: ${tools[0]}`);

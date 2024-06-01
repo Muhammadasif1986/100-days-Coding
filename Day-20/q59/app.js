@@ -17,5 +17,6 @@ function adder(valueAdd) {
         return number + valueAdd;
     };
 }
-var adding = adder(13);
+var adding = adder(13 + 13);
 console.log(adding(19));
+console.log(adding(3));

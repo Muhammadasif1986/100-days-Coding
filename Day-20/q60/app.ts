@@ -34,4 +34,4 @@ return {
 
 profile.displayinfo()
 
-let a =(function(){})();
+let a =function(){}();

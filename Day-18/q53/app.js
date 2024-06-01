@@ -8,6 +8,7 @@ var developerSkills = {
     frameworks: ["React", "Angular", "Vue"],
     tools: ["Git", "Webpack", "Docker"]
 };
+console.log("Language: ".concat(developerSkills.languages[1], ", Framework: ").concat(developerSkills.frameworks[0], ", Tool: ").concat(developerSkills.tools[0]));
 // Getting specific skills from the list
 var languages = developerSkills.languages, frameworks = developerSkills.frameworks, tools = developerSkills.tools;
 // Showing a skill from each category

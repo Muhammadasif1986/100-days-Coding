@@ -23,5 +23,6 @@ function adder(valueAdd:number):(number)=>number{
 
 }
 
-let adding = adder(13)
+let adding = adder(13+13)
 console.log(adding(19));
+console.log(adding(3));
