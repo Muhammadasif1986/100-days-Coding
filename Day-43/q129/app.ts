@@ -24,7 +24,7 @@ const outerScope = {
         console.log("Arrow function in innerObject:", this.innerValue); // print undefined due to same object
       },
     };
-    innerObject.arrowFun();
+    innerObject.arrowFun();//call arrow function
   },
 };
 
